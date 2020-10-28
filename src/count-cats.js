@@ -1,5 +1,6 @@
 const CustomError = require("../extensions/custom-error");
 
+
 module.exports = function countCats(array) {
   let counter = 0;
   for (let el of array) {
